@@ -1,42 +1,51 @@
-# This .gitignore should be placed at the root of your Unity project
-
+# === Unity: carpetas generadas (se regeneran solas al abrir el proyecto) ===
 /[Ll]ibrary/
 /[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
 /[Ll]ogs/
-/[Uu]serSettings/
-
-# MemoryCaptures can get huge, they are not useful for collaboration
+/[Uu]ser[Ss]ettings/
 /[Mm]emoryCaptures/
+/[Rr]ecordings/
 
-# Unity generated directories
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/[Ll]ogs/
-/[Uu]serSettings/
-/[Mm]emoryCaptures/
-/[Aa]sset[Ss]witch/
-
-# Visual Studio / IDE files
+# === Archivos de IDE ===
 .vs/
+.vscode/
 .idea/
-.gradle/
-/*.csproj
-/*.sln
-/*.suo
-/*.user
-/*.userprefs
-/*.unityproj
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
 
-# OS generated files
+# === Unity: otros generados ===
+sysinfo.txt
+*.apk
+*.aab
+*.unitypackage
+*.app
+crashlytics-build.properties
+
+# === Sistema operativo ===
 .DS_Store
-.DS_Store?
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
+desktop.ini
+
+# === Archivos generados por el juego durante las pruebas ===
+# (configuracion.txt, log_partida.txt y resultado_final.txt viven en persistentDataPath,
+#  pero si copias alguno al repo para mostrarlo, quita estas líneas o ponlos en /docs/ejemplos/)
+/Registros/
+
+# === IMPORTANTE: NO ignorar los .meta ===
+# Los archivos .meta guardan las referencias entre escenas, prefabs y scripts.
+# Si no se suben, el proyecto se rompe al clonarlo.
