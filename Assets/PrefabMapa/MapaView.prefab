@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5957021571612516170
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9083140172668275723}
+  - component: {fileID: 4819104477854074148}
+  m_Layer: 0
+  m_Name: MapaView
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9083140172668275723
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5957021571612516170}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 308.3256, y: 261.75354, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4819104477854074148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5957021571612516170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1493560bedcf1de499757c4885f6d015, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ImperiosEnGuerra.Vista.MapaView
+  prefabCasilla: {fileID: 2434230847421611419, guid: 5a798ccc0722ec147afcef2a365b4158, type: 3}
+  spriteLibre: {fileID: 21300000, guid: c9563caed341d8c4996064b72d8fe94b, type: 3}
+  spriteBosque: {fileID: 21300000, guid: eafffaed28b45f94db9c5b1528f447c7, type: 3}
+  spriteAgua: {fileID: 21300000, guid: 866095e5ff0cfa94d900f79b045fffdc, type: 3}
+  spriteMontana: {fileID: 21300000, guid: 1d036585bde2d7142abe3da58d5b0949, type: 3}
+  spriteYacimientoOro: {fileID: 6096741394173478739, guid: 04abb43e56502e7459a182bddba876e9, type: 3}
+  spriteYacimientoMadera: {fileID: 7930805640786998855, guid: c9ea7f5fba3c12544b0b61b91b7c5f74, type: 3}
+  spriteZonaComida: {fileID: 5136516418285806777, guid: 27ee3e62fc972164d9bc4a14e046a0f6, type: 3}
